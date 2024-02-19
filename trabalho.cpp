@@ -26,15 +26,12 @@ int main(){
     cout << "Quociente: " << a/b << endl;
     cout << "Resto da Divisão: " << a%b << endl;
     
-    cin.ignore();
-    system("clear || cls");
+
     
     cout << "Qual o Raio do Circulo: " << endl;
     cin >> raio;
     cout << "Área do Circulo: " << PI * raio * raio << endl;
     
-    cin.ignore();
-    system("clear ||cls");
 
 
 
@@ -65,9 +62,7 @@ int main(){
     cout << "Média das notas é: " << media/5 << endl;
     cout << "Menor Nota: " << menor << endl;
     cout << "Maior Nota: " << maior << endl;
-    
-    cin.ignore();
-    system ("clear || cls");
+
 
     minimo = arrayint[1];
     maximo = arrayint[1];
@@ -86,9 +81,7 @@ int main(){
     }
     
     cout << "Máximo: " << maximo << " | Mínimo: " << minimo << endl;
-    cin.ignore();
-    
-    system("clear || cls");
+
     
     cout << "Qual o numero para a Tabuada" << endl;
     cin >> mult;
